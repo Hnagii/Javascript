@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nova Square', sans-serif;
+}
+
+.container {
+    width: 50%;
+    height: 300px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+.fundo input,
+.fundo button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+form,
+p,
+h1 {
+    text-align: center;
+}
+h1{
+    font-family: 'Nova Square', cursive;
+    font-size: 40px;
+    color: purple;
+}
+.fundo button:active {
+    background-color: black;
+}
+.fundo button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
